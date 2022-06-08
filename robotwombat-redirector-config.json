@@ -1,0 +1,127 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2022-06-08T16:35:49.734Z",
+    "redirects": [
+        {
+            "description": "Reddit to Libreddit",
+            "exampleUrl": "https://*.reddit.com/r/privacy",
+            "exampleResult": "https://libreddit.pussthecat.org/r/privacy",
+            "error": null,
+            "includePattern": "https://*.reddit.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://libreddit.pussthecat.org/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Any Libreddit instance to Pussthecat",
+            "exampleUrl": "https://libreddit.spike.codes/r/pcmasterrace",
+            "exampleResult": "https://libreddit.pussthecat.org/r/pcmasterrace",
+            "error": null,
+            "includePattern": "https://libreddit.*/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://libreddit.pussthecat.org/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Instagram to Bibliogram",
+            "exampleUrl": "https://www.instagram.com/epicbullyz/reel/CXb9aUsjhMd/?utm_medium=copy_link",
+            "exampleResult": "https://bibliogram.pussthecat.org/p/CXb9aUsjhMd/",
+            "error": null,
+            "includePattern": "https:\\/\\/www.instagram.com.*?[(\\/reel)|(\\/tv)|(\\/p)|\\/]\\/(.*\\/)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://bibliogram.pussthecat.org/p/$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Twitter to Nitter",
+            "exampleUrl": "https://*.twitter.com/MKBHD/status/1481108783996751874",
+            "exampleResult": "https://nitter.net/MKBHD/status/1481108783996751874",
+            "error": null,
+            "includePattern": "https:\\/\\/(.*)twitter.com(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://nitter.net$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame"
+            ]
+        },
+        {
+            "description": "YouTube to Invidious",
+            "exampleUrl": "https://www.youtube.com/watch?v=-njHjebtIg4",
+            "exampleResult": "https://yewtu.be/watch?v=-njHjebtIg4",
+            "error": null,
+            "includePattern": "https://www.youtube.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://yewtu.be/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame"
+            ]
+        },
+        {
+            "description": "TikTok to ProxiTok",
+            "exampleUrl": "https://*.tiktok.com/ZMLJ8fvWX/",
+            "exampleResult": "https://proxitok.herokuapp.com/video/ZMLJ8fvWX/",
+            "error": null,
+            "includePattern": "https://*.tiktok.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://proxitok.herokuapp.com/video/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Imgur to rimgo",
+            "exampleUrl": "https://imgur.com/a/H8M4rcp",
+            "exampleResult": "https://i.bcow.xyz/a/H8M4rcp",
+            "error": null,
+            "includePattern": "^https?://i?.?imgur.com(/.*)?$",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://i.bcow.xyz$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
