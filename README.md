@@ -1,5 +1,5 @@
 # Robotwombat's Redirector Privacy Config
-A privacy frontend config file for the Redirector Extension
+A privacy frontend config file for the [Redirector Extension](https://github.com/einaregilsson/Redirector)
 
 Included redirects:
 * Reddit -> Libreddit
