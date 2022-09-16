@@ -1,7 +1,7 @@
 {
     "createdBy": "robotwombat",
-    "version": "1.4.2",
-    "createdAt": "2022-09-10T17:08:25.570Z",
+    "version": "v1.4.3",
+    "createdAt": "2022-09-16T14:05:40.798Z",
     "redirects": [
         {
             "description": "Reddit to Libreddit",
@@ -9,23 +9,6 @@
             "exampleResult": "https://libreddit.pussthecat.org/r/privacy",
             "error": null,
             "includePattern": "https://*.reddit.com/*",
-            "excludePattern": "",
-            "patternDesc": "",
-            "redirectUrl": "https://libreddit.pussthecat.org/$2",
-            "patternType": "W",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "grouped": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "Any Libreddit instance to Pussthecat",
-            "exampleUrl": "https://libreddit.spike.codes/r/pcmasterrace",
-            "exampleResult": "https://libreddit.pussthecat.org/r/pcmasterrace",
-            "error": null,
-            "includePattern": "https://libreddit.*/*",
             "excludePattern": "",
             "patternDesc": "",
             "redirectUrl": "https://libreddit.pussthecat.org/$2",
@@ -92,13 +75,13 @@
         },
         {
             "description": "TikTok to ProxiTok",
-            "exampleUrl": "https://*.tiktok.com/ZMLJ8fvWX/",
-            "exampleResult": "https://proxitok.herokuapp.com/video/ZMLJ8fvWX/",
+            "exampleUrl": "https://vm.tiktok.com/ZMLJ8fvWX/",
+            "exampleResult": "https://proxitok.pabloferreiro.es/video/ZMLJ8fvWX/",
             "error": null,
             "includePattern": "https://*.tiktok.com/*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://proxitok.herokuapp.com/video/$2",
+            "redirectUrl": "https://proxitok.pabloferreiro.es/video/$2",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
@@ -110,12 +93,12 @@
         {
             "description": "Imgur to rimgo",
             "exampleUrl": "https://imgur.com/a/H8M4rcp",
-            "exampleResult": "https://i.bcow.xyz/a/H8M4rcp",
+            "exampleResult": "https://rimgo.pussthecat.org/a/H8M4rcp",
             "error": null,
             "includePattern": "^https?://i?.?imgur.com(/.*)?$",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://i.bcow.xyz$1",
+            "redirectUrl": "https://rimgo.pussthecat.org$1",
             "patternType": "R",
             "processMatches": "noProcessing",
             "disabled": false,
