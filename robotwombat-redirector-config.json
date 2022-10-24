@@ -1,7 +1,7 @@
 {
     "createdBy": "robotwombat",
-    "version": "v1.4.3",
-    "createdAt": "2022-09-16T14:05:40.798Z",
+    "version": "v1.4.4",
+    "createdAt": "2022-10-24T17:49:21.204Z",
     "redirects": [
         {
             "description": "Reddit to Libreddit",
@@ -42,17 +42,16 @@
             "exampleUrl": "https://*.twitter.com/MKBHD/status/1481108783996751874",
             "exampleResult": "https://nitter.pussthecat.org/MKBHD/status/1481108783996751874",
             "error": null,
-            "includePattern": "https:\\/\\/(.*)twitter.com(.*)",
+            "includePattern": "https://*.twitter.com/*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://nitter.pussthecat.org$2",
-            "patternType": "R",
+            "redirectUrl": "https://nitter.pussthecat.org/$2",
+            "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
             "grouped": false,
             "appliesTo": [
-                "main_frame",
-                "sub_frame"
+                "main_frame"
             ]
         },
         {
