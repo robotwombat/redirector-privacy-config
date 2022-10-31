@@ -1,7 +1,7 @@
 {
     "createdBy": "robotwombat",
-    "version": "v1.4.4",
-    "createdAt": "2022-10-24T17:49:21.204Z",
+    "version": "v1.4.5",
+    "createdAt": "2022-10-31T18:16:27.993Z",
     "redirects": [
         {
             "description": "Reddit to Libreddit",
@@ -39,7 +39,24 @@
         },
         {
             "description": "Twitter to Nitter",
-            "exampleUrl": "https://*.twitter.com/MKBHD/status/1481108783996751874",
+            "exampleUrl": "https://twitter.com/MKBHD/status/1481108783996751874",
+            "exampleResult": "https://nitter.pussthecat.org/MKBHD/status/1481108783996751874",
+            "error": null,
+            "includePattern": "https://twitter.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://nitter.pussthecat.org/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Twitter Mobile to Nitter",
+            "exampleUrl": "https://m.twitter.com/MKBHD/status/1481108783996751874",
             "exampleResult": "https://nitter.pussthecat.org/MKBHD/status/1481108783996751874",
             "error": null,
             "includePattern": "https://*.twitter.com/*",
